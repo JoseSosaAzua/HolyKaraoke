@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.page {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: center;
+  padding: 8px;
+  font-size: 14px;
+  color: #888;
+}
+
+.heard {
+  font-style: italic;
+}
+
+.error {
+  color: #ff6b6b;
+}
+
+.stanza {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 5vh;
+  line-height: 1.3;
+}
+
+.stanza p {
+  margin: 0.2em 1em;
+}
+
+.word-active {
+  color: #ffd54f;
+  text-decoration: underline;
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.15em;
+}
